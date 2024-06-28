@@ -1,0 +1,48 @@
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="70px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="182dp"
+        android:layout_height="100dp"
+        android:background="@drawable/blogimg" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="User Name"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="Enter the username"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="numberPassword"
+        android:drawableLeft="@drawable/baseline_vpn_key_24"
+        android:hint="Enter the 4-digit password"
+        android:id="@+id/pass"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="10px"
+        android:background="#00BCD4"
+        android:textColor="#4A6572"
+        android:id="@+id/log"/>
+</LinearLayout>

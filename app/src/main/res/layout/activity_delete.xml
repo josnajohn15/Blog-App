@@ -1,0 +1,44 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="Blog Title"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the blog title"
+        android:id="@+id/bname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#9734BD"
+        android:layout_height="wrap_content"
+        android:text="Author Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the author name"
+        android:layout_height="wrap_content"
+        android:id="@+id/aname"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/sub"
+        android:drawableBottom="@drawable/baseline_delete_24"
+        android:background="#00BCD4"
+        android:text="DELETE"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:drawableBottom="@drawable/baseline_west_24"
+        android:id="@+id/back"
+        android:background="#00BCD4"
+        android:text="BACK TO MAIN PAGE"/>
+</LinearLayout>
